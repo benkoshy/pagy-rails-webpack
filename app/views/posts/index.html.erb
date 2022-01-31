@@ -2,6 +2,8 @@
 
 <h1>Posts</h1>
 
+ <%== pagy_nav_js(@pagy) %>
+
 <div id="posts">
   <% @posts.each do |post| %>
     <%= render post %>
